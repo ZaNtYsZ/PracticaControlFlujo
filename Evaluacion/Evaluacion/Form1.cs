@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,63 +13,68 @@ namespace Evaluacion
 {
     public partial class Form1 : Form
     {
-        Numeros numeros = new Numeros(); // Instanciar la clase Numeros
+        private Numeros numeros;
 
         public Form1()
         {
             InitializeComponent();
+            numeros = new Numeros(); // Inicializa la clase Numeros
         }
 
-        // Evento para agregar números a la lista cuando se presiona el botón "Agregar"
+        // Evento del botón Agregar, ejecutado cuando el usuario agrega un número
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             int numero;
 
-            // Validar si el número ingresado es un número entero
+            // Verifica si el texto ingresado es un número válido
             if (int.TryParse(txtNumero.Text, out numero))
             {
-                if (numero >= 0)
+                // Si el número es negativo, muestra los resultados
+                if (numero < 0)
                 {
-                    numeros.AgregarNumero(numero);  // Agregar el número a la lista
-                    lstNumeros.Items.Add(numero);   // Mostrarlo en el ListBox
-                    txtNumero.Clear();              // Limpiar el TextBox
+                    Resultados();
                 }
                 else
                 {
-                    // Mostrar resultados si se ingresa un número negativo
-                    MessageBox.Show("Número negativo ingresado. Se detendrá la entrada y se mostrarán los resultados.");
-                    MostrarResultados();
+                    // Agrega el número a la lista y limpia el campo de texto
+                    numeros.AddNumero(numero);
+                    txtNumero.Clear();
+                    txtNumero.Focus();
                 }
             }
             else
             {
-                MessageBox.Show("Por favor ingresa un número válido.");
+                // Si no es válido, muestra un mensaje de error
+                MessageBox.Show("Ingrese un número válido.");
+                txtNumero.Clear();
+                txtNumero.Focus();
             }
         }
 
-        // Método para mostrar los resultados (suma, mayor y menor)
-        private void MostrarResultados()
+        // Método para mostrar la suma, el mayor y el menor de los números
+        private void Resultados()
         {
-            if (numeros.ListaNumeros.Count > 0)
+            // Verifica si hay números ingresados
+            if (numeros.HayNumeros())
             {
-                lblSuma.Text = "Suma: " + numeros.SumarNumeros().ToString();
-                lblMayor.Text = "Mayor: " + numeros.ObtenerMayor().ToString();
-                lblMenor.Text = "Menor: " + numeros.ObtenerMenor().ToString();
+                int suma = numeros.Suma();   // Calcula la suma de los números
+                int mayor = numeros.Mayor(); // Obtiene el número mayor
+                int menor = numeros.Menor(); // Obtiene el número menor
+
+                // Muestra los resultados en la etiqueta
+                lblResultados.Text = $"Suma de los números: {suma}\nNúmero Mayor: {mayor}\nNúmero Menor: {menor}";
             }
             else
             {
-                MessageBox.Show("No se han ingresado números válidos.");
+                lblResultados.Text = "No hay números registrados."; // Mensaje si no hay números
             }
         }
 
-        // Evento opcional para mostrar los resultados manualmente
-        private void btnMostrarResultados_Click(object sender, EventArgs e)
-        {
-            MostrarResultados();
-        }
-    }
-
-    internal class Numeros
-    {
+        // Eventos para manejar clics en etiquetas y cambios en el TextBox
+        private void lblResultado_Click(object sender, EventArgs e) { }
+        private void label2_Click(object sender, EventArgs e) { }
+        private void txtNumero_TextChanged(object sender, EventArgs e) { }
+        private void lblResultados_Click(object sender, EventArgs e) { }
     }
 }
+

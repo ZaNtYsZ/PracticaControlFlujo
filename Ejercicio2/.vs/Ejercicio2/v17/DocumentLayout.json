@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\mena4\\Documents\\PracticaControlFlujo\\Ejercicio2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{424193D3-C8D1-44BE-867F-8005DE6AEE39}|Ejercicio2\\Ejercicio2.csproj|C:\\Users\\mena4\\Documents\\PracticaControlFlujo\\Ejercicio2\\ejercicio2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{424193D3-C8D1-44BE-867F-8005DE6AEE39}|Ejercicio2\\Ejercicio2.csproj|solutionrelative:ejercicio2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{424193D3-C8D1-44BE-867F-8005DE6AEE39}|Ejercicio2\\Ejercicio2.csproj|c:\\users\\mena4\\documents\\practicacontrolflujo\\ejercicio2\\ejercicio2\\gestornotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{424193D3-C8D1-44BE-867F-8005DE6AEE39}|Ejercicio2\\Ejercicio2.csproj|solutionrelative:ejercicio2\\gestornotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{424193D3-C8D1-44BE-867F-8005DE6AEE39}|Ejercicio2\\Ejercicio2.csproj|c:\\users\\mena4\\documents\\practicacontrolflujo\\ejercicio2\\ejercicio2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{424193D3-C8D1-44BE-867F-8005DE6AEE39}|Ejercicio2\\Ejercicio2.csproj|solutionrelative:ejercicio2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{424193D3-C8D1-44BE-867F-8005DE6AEE39}|Ejercicio2\\Ejercicio2.csproj|c:\\users\\mena4\\documents\\practicacontrolflujo\\ejercicio2\\ejercicio2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{424193D3-C8D1-44BE-867F-8005DE6AEE39}|Ejercicio2\\Ejercicio2.csproj|solutionrelative:ejercicio2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{424193D3-C8D1-44BE-867F-8005DE6AEE39}|Ejercicio2\\Ejercicio2.csproj|c:\\users\\mena4\\documents\\practicacontrolflujo\\ejercicio2\\ejercicio2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{424193D3-C8D1-44BE-867F-8005DE6AEE39}|Ejercicio2\\Ejercicio2.csproj|solutionrelative:ejercicio2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +26,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mena4\\Documents\\PracticaControlFlujo\\Ejercicio2\\Ejercicio2\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Ejercicio2\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\mena4\\Documents\\PracticaControlFlujo\\Ejercicio2\\Ejercicio2\\Form1.Designer.cs",
+              "RelativeToolTip": "Ejercicio2\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T01:03:35.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\mena4\\Documents\\PracticaControlFlujo\\Ejercicio2\\Ejercicio2\\Form1.cs",
+              "RelativeDocumentMoniker": "Ejercicio2\\Form1.cs",
+              "ToolTip": "C:\\Users\\mena4\\Documents\\PracticaControlFlujo\\Ejercicio2\\Ejercicio2\\Form1.cs",
+              "RelativeToolTip": "Ejercicio2\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T00:35:32.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GestorNotas.cs",
+              "DocumentMoniker": "C:\\Users\\mena4\\Documents\\PracticaControlFlujo\\Ejercicio2\\Ejercicio2\\GestorNotas.cs",
+              "RelativeDocumentMoniker": "Ejercicio2\\GestorNotas.cs",
+              "ToolTip": "C:\\Users\\mena4\\Documents\\PracticaControlFlujo\\Ejercicio2\\Ejercicio2\\GestorNotas.cs",
+              "RelativeToolTip": "Ejercicio2\\GestorNotas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T00:51:12.422Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -35,19 +82,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\mena4\\Documents\\PracticaControlFlujo\\Ejercicio2\\Ejercicio2\\Form1.cs",
-              "RelativeDocumentMoniker": "Ejercicio2\\Form1.cs",
-              "ToolTip": "C:\\Users\\mena4\\Documents\\PracticaControlFlujo\\Ejercicio2\\Ejercicio2\\Form1.cs",
-              "RelativeToolTip": "Ejercicio2\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T00:35:32.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\mena4\\Documents\\PracticaControlFlujo\\Ejercicio2\\Ejercicio2\\Form1.cs",
               "RelativeDocumentMoniker": "Ejercicio2\\Form1.cs",

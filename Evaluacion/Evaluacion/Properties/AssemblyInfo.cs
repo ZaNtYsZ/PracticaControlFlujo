@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Evaluacion")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("HP")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Evaluacion")]
-[assembly: AssemblyCopyright("Copyright © HP 2024")]
+[assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // El siguiente GUID sirve como id. de typelib si este proyecto se expone a COM.
-[assembly: Guid("ce1b7d43-0d90-4eac-9771-1abaa000df93")]
+[assembly: Guid("2985b696-a392-4162-bb04-173bd42ad062")]
 
 // La información de versión de un ensamblado consta de los cuatro valores siguientes:
 //

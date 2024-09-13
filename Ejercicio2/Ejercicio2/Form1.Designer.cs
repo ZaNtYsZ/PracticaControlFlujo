@@ -28,90 +28,93 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lblPromedio = new System.Windows.Forms.Label();
+            this.lblPrimerLugar = new System.Windows.Forms.Label();
+            this.lblSegundoLugar = new System.Windows.Forms.Label();
+            this.lblTercerLugar = new System.Windows.Forms.Label();
+            this.btnAgregarNota = new System.Windows.Forms.Button();
+            this.btnMostrarResultados = new System.Windows.Forms.Button();
+            this.txtNota = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // label1
+            // lblPromedio
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(25, 38);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.lblPromedio.AutoSize = true;
+            this.lblPromedio.Location = new System.Drawing.Point(25, 38);
+            this.lblPromedio.Name = "lblPromedio";
+            this.lblPromedio.Size = new System.Drawing.Size(51, 13);
+            this.lblPromedio.TabIndex = 0;
+            this.lblPromedio.Text = "Promedio";
             // 
-            // label2
+            // lblPrimerLugar
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(24, 75);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
+            this.lblPrimerLugar.AutoSize = true;
+            this.lblPrimerLugar.Location = new System.Drawing.Point(24, 75);
+            this.lblPrimerLugar.Name = "lblPrimerLugar";
+            this.lblPrimerLugar.Size = new System.Drawing.Size(66, 13);
+            this.lblPrimerLugar.TabIndex = 1;
+            this.lblPrimerLugar.Text = "Primer Lugar";
             // 
-            // label3
+            // lblSegundoLugar
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(23, 117);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "label3";
+            this.lblSegundoLugar.AutoSize = true;
+            this.lblSegundoLugar.Location = new System.Drawing.Point(23, 117);
+            this.lblSegundoLugar.Name = "lblSegundoLugar";
+            this.lblSegundoLugar.Size = new System.Drawing.Size(80, 13);
+            this.lblSegundoLugar.TabIndex = 2;
+            this.lblSegundoLugar.Text = "Segundo Lugar";
             // 
-            // label4
+            // lblTercerLugar
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(22, 158);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "label4";
+            this.lblTercerLugar.AutoSize = true;
+            this.lblTercerLugar.Location = new System.Drawing.Point(22, 158);
+            this.lblTercerLugar.Name = "lblTercerLugar";
+            this.lblTercerLugar.Size = new System.Drawing.Size(68, 13);
+            this.lblTercerLugar.TabIndex = 3;
+            this.lblTercerLugar.Text = "Tercer Lugar";
             // 
-            // button1
+            // btnAgregarNota
             // 
-            this.button1.Location = new System.Drawing.Point(186, 58);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnAgregarNota.Location = new System.Drawing.Point(176, 44);
+            this.btnAgregarNota.Name = "btnAgregarNota";
+            this.btnAgregarNota.Size = new System.Drawing.Size(169, 34);
+            this.btnAgregarNota.TabIndex = 4;
+            this.btnAgregarNota.Text = "Agregar Nota";
+            this.btnAgregarNota.UseVisualStyleBackColor = true;
+            this.btnAgregarNota.Click += new System.EventHandler(this.btnAgregarNota_Click);
             // 
-            // button2
+            // btnMostrarResultados
             // 
-            this.button2.Location = new System.Drawing.Point(185, 117);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnMostrarResultados.Location = new System.Drawing.Point(185, 105);
+            this.btnMostrarResultados.Name = "btnMostrarResultados";
+            this.btnMostrarResultados.Size = new System.Drawing.Size(148, 37);
+            this.btnMostrarResultados.TabIndex = 5;
+            this.btnMostrarResultados.Text = "Mostrar Resultados";
+            this.btnMostrarResultados.UseVisualStyleBackColor = true;
+            this.btnMostrarResultados.Click += new System.EventHandler(this.btnMostrarResultados_Click);
             // 
-            // textBox1
+            // txtNota
             // 
-            this.textBox1.Location = new System.Drawing.Point(370, 58);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 6;
+            this.txtNota.Location = new System.Drawing.Point(370, 58);
+            this.txtNota.Name = "txtNota";
+            this.txtNota.Size = new System.Drawing.Size(100, 20);
+            this.txtNota.TabIndex = 6;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(580, 350);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtNota);
+            this.Controls.Add(this.btnMostrarResultados);
+            this.Controls.Add(this.btnAgregarNota);
+            this.Controls.Add(this.lblTercerLugar);
+            this.Controls.Add(this.lblSegundoLugar);
+            this.Controls.Add(this.lblPrimerLugar);
+            this.Controls.Add(this.lblPromedio);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -119,13 +122,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label lblPromedio;
+        private System.Windows.Forms.Label lblPrimerLugar;
+        private System.Windows.Forms.Label lblSegundoLugar;
+        private System.Windows.Forms.Label lblTercerLugar;
+        private System.Windows.Forms.Button btnAgregarNota;
+        private System.Windows.Forms.Button btnMostrarResultados;
+        private System.Windows.Forms.TextBox txtNota;
     }
 }
 

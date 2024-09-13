@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\mena4\\Documents\\PracticaControlFlujo\\Evaluacion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D65B5FFE-DAA7-405F-AE81-2FB0A8ABD310}|Elementos de la soluci\u00F3n{D65B5FFE-DAA7-405F-AE81-2FB0A8ABD310}|C:\\Users\\mena4\\Documents\\PracticaControlFlujo\\Evaluacion\\Numeros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D65B5FFE-DAA7-405F-AE81-2FB0A8ABD310}|Elementos de la soluci\u00F3n{D65B5FFE-DAA7-405F-AE81-2FB0A8ABD310}|solutionrelative:Numeros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2985B696-A392-4162-BB04-173BD42AD062}|Evaluacion\\Evaluacion.csproj|C:\\Users\\mena4\\Documents\\PracticaControlFlujo\\Evaluacion\\evaluacion\\numeros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2985B696-A392-4162-BB04-173BD42AD062}|Evaluacion\\Evaluacion.csproj|solutionrelative:evaluacion\\numeros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE1B7D43-0D90-4EAC-9771-1ABAA000DF93}|Evaluacion\\Evaluacion.csproj|c:\\users\\mena4\\documents\\practicacontrolflujo\\evaluacion\\evaluacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE1B7D43-0D90-4EAC-9771-1ABAA000DF93}|Evaluacion\\Evaluacion.csproj|solutionrelative:evaluacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2985B696-A392-4162-BB04-173BD42AD062}|Evaluacion\\Evaluacion.csproj|C:\\Users\\mena4\\Documents\\PracticaControlFlujo\\Evaluacion\\evaluacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2985B696-A392-4162-BB04-173BD42AD062}|Evaluacion\\Evaluacion.csproj|solutionrelative:evaluacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE1B7D43-0D90-4EAC-9771-1ABAA000DF93}|Evaluacion\\Evaluacion.csproj|c:\\users\\mena4\\documents\\practicacontrolflujo\\evaluacion\\evaluacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CE1B7D43-0D90-4EAC-9771-1ABAA000DF93}|Evaluacion\\Evaluacion.csproj|solutionrelative:evaluacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2985B696-A392-4162-BB04-173BD42AD062}|Evaluacion\\Evaluacion.csproj|c:\\users\\mena4\\documents\\practicacontrolflujo\\evaluacion\\evaluacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2985B696-A392-4162-BB04-173BD42AD062}|Evaluacion\\Evaluacion.csproj|solutionrelative:evaluacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,15 +38,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\mena4\\Documents\\PracticaControlFlujo\\Evaluacion\\Evaluacion\\Form1.cs",
-              "RelativeDocumentMoniker": "Evaluacion\\Form1.cs",
-              "ToolTip": "C:\\Users\\mena4\\Documents\\PracticaControlFlujo\\Evaluacion\\Evaluacion\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Evaluacion\\Form1.cs [Dise\u00F1o]",
+              "DocumentIndex": 0,
+              "Title": "Numeros.cs",
+              "DocumentMoniker": "C:\\Users\\mena4\\Documents\\PracticaControlFlujo\\Evaluacion\\Evaluacion\\Numeros.cs",
+              "RelativeDocumentMoniker": "Evaluacion\\Numeros.cs",
+              "ToolTip": "C:\\Users\\mena4\\Documents\\PracticaControlFlujo\\Evaluacion\\Evaluacion\\Numeros.cs",
+              "RelativeToolTip": "Evaluacion\\Numeros.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T23:43:23.712Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-09-13T01:26:41.606Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -56,23 +57,22 @@
               "RelativeDocumentMoniker": "Evaluacion\\Form1.cs",
               "ToolTip": "C:\\Users\\mena4\\Documents\\PracticaControlFlujo\\Evaluacion\\Evaluacion\\Form1.cs",
               "RelativeToolTip": "Evaluacion\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAowA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T23:54:56.426Z",
+              "WhenOpened": "2024-09-13T00:23:10.297Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Numeros.cs",
-              "DocumentMoniker": "C:\\Users\\mena4\\Documents\\PracticaControlFlujo\\Evaluacion\\Numeros.cs",
-              "RelativeDocumentMoniker": "Numeros.cs",
-              "ToolTip": "C:\\Users\\mena4\\Documents\\PracticaControlFlujo\\Evaluacion\\Numeros.cs",
-              "RelativeToolTip": "Numeros.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\mena4\\Documents\\PracticaControlFlujo\\Evaluacion\\Evaluacion\\Form1.cs",
+              "RelativeDocumentMoniker": "Evaluacion\\Form1.cs",
+              "ToolTip": "C:\\Users\\mena4\\Documents\\PracticaControlFlujo\\Evaluacion\\Evaluacion\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Evaluacion\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T23:51:20.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T00:17:52.377Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
