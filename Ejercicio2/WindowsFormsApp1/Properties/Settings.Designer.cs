@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Ejercicio2.Properties
+namespace WindowsFormsApp1.Properties
 {
 
 
